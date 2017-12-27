@@ -35,18 +35,20 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, array(
-	'USERS_24HOUR_TOTAL'	=> array(
-		1 => '%d lid',
-		2 => '%d leden',
-	),
+	'USERS_24HOUR_TOTAL'	=>  '%d geregistreerd,',
+	'HIDDEN_24HOUR_TOTAL'	=> ' %d verborgen ',
 	'GUEST_ONLINE_24'		=> array(
-		1 => ' en %d gast',
-		2 => ' en %d gasten',
+		1 => ' and %d gast',
+		2 => ' and %d gasten',
 	),
-	'LAST_24_HOURS'	=> ' activiteiten van de laatste 24 uren',
-	'24HOUR_TOPICS'			=> 'Nieuwe topics %d',
-	'24HOUR_POSTS'			=> 'Nieuwe posten %d',
-	'24HOUR_USERS'			=> 'Nieuwe leden %d',
+	'LAST_24_HOURS'	=> ' activiteiten van de laatste 24 uur',
+	'24HOUR_TOPICS'			=> 'Nieuwe onderwerpen %d',
+	'24HOUR_POSTS'			=> 'New berichten %d',
+	'24HOUR_USERS'			=> 'Nieuwe gebruikers %d',
 
-	'TWENTYFOURHOUR_STATS'			=> 'Activiteiten van de laatste 24 uren',
+	'TWENTYFOURHOUR_STATS'	=> 'activiteiten van de laatste 24 uur',
+	'TOTAL_24HOUR_USERS'	=> array(
+		1 => 'In totaal was er %d gebruiker :: ',
+		2 => 'In totaal waren er %d gebruikers :: ',
+	),
 ));
