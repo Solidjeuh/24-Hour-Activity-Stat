@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	),
 	'LAST_24_HOURS'	=> ' activiteiten van de laatste 24 uur',
 	'24HOUR_TOPICS'			=> 'Nieuwe onderwerpen %d',
-	'24HOUR_POSTS'			=> 'New berichten %d',
+	'24HOUR_POSTS'			=> 'Nieuwe berichten %d',
 	'24HOUR_USERS'			=> 'Nieuwe gebruikers %d',
 
 	'TWENTYFOURHOUR_STATS'	=> 'activiteiten van de laatste 24 uur',
