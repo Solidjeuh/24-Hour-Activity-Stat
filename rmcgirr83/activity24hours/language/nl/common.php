@@ -35,8 +35,12 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, array(
+	'BOTS_24HOUR_TOTAL'	=> array(
+		1 => '%d bot',
+		2 => '%d bots',
+	),
 	'USERS_24HOUR_TOTAL'	=>  '%d geregistreerd,',
-	'HIDDEN_24HOUR_TOTAL'	=> ' %d verborgen ',
+	'HIDDEN_24HOUR_TOTAL'	=> ' %d verborgen, ',
 	'GUEST_ONLINE_24'		=> array(
 		1 => ' and %d gast',
 		2 => ' and %d gasten',
@@ -45,6 +49,7 @@ $lang = array_merge($lang, array(
 	'24HOUR_TOPICS'			=> 'Nieuwe onderwerpen %d',
 	'24HOUR_POSTS'			=> 'Nieuwe berichten %d',
 	'24HOUR_USERS'			=> 'Nieuwe gebruikers %d',
+	'NO_ONLINE_BOTS'		=> 'Geen bots actief',
 
 	'TWENTYFOURHOUR_STATS'	=> 'activiteiten van de laatste 24 uur',
 	'TOTAL_24HOUR_USERS'	=> array(
